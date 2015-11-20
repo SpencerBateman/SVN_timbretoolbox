@@ -34,10 +34,10 @@ for f1=1:length(fieldname1_c)
 					ALLTM_s.(name) = value;
                     
 				elseif size(value,2)>1
-					%ALLTM_s.([name '_min'])	= min(value, [], 2);
-					%ALLTM_s.([name '_max'])	= max(value, [], 2);
-					%ALLTM_s.([name '_mean'])	= mean(value, 2);
-					%ALLTM_s.([name '_std'])	= std(value, [], 2);
+					ALLTM_s.([name '_min'])	= min(value, [], 2);
+					ALLTM_s.([name '_max'])	= max(value, [], 2);
+					ALLTM_s.([name '_mean'])	= mean(value, 2);
+					ALLTM_s.([name '_std'])	= std(value, [], 2);
 					ALLTM_s.([name '_median']) = median(value, 2);
 					ALLTM_s.([name '_iqr'])	= 0.7413*iqr(value, 2);
 					

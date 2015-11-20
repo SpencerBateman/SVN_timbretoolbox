@@ -28,7 +28,7 @@ function [FILE_s, ALLDESC_s, ALLTM_s] = Gtimbredescriptor(w_Directory, EXT)
 if ~nargin
 	% === DEFINE THE FOLDER WHERE THE FILES ARE LOCATED IN AND THEIR EXTENSIONS
 	%w_Directory = ['./soundexample/Lakatos.McGill/'];			EXT = '.aiff';
-	w_Directory = '/Users/spencer/Desktop/Sounds';			EXT = '.aiff';
+	w_Directory = '/Users/spencer/Desktop/Selected_Sounds';		EXT = '.aiff';
 end
 
 % ====================
